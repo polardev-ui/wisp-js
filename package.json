@@ -48,16 +48,16 @@
     "wisp-js-server": "src/bin/server_cli.mjs"
   },
   "dependencies": {
-    "bufferutil": "^4.0.9",
-    "commander": "^14.0.2",
+    "bufferutil": "^4.1.0",
+    "commander": "^14.0.3",
     "ipaddr.js": "^2.3.0",
-    "ws": "^8.18.3"
+    "ws": "^8.19.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.5",
-    "@babel/preset-env": "^7.28.5",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
     "babel-loader": "^10.0.0",
-    "webpack": "^5.103.0",
+    "webpack": "^5.105.4",
     "webpack-cli": "^6.0.1"
   }
 }
