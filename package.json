@@ -42,12 +42,14 @@
     "build:prod": "webpack --mode=production",
     "dev": "webpack --watch",
     "server_cli": "node ./src/bin/server_cli.mjs",
-    "prepack": "npm run build:prod"
+    "prepack": "npm run build:prod",
+    "start": "node index.js"
   },
   "bin": {
     "wisp-js-server": "src/bin/server_cli.mjs"
   },
   "dependencies": {
+    "express": "^4.18.2"
     "bufferutil": "^4.1.0",
     "commander": "^14.0.3",
     "ipaddr.js": "^2.3.0",
