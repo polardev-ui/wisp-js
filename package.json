@@ -49,7 +49,7 @@
     "wisp-js-server": "src/bin/server_cli.mjs"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
     "bufferutil": "^4.1.0",
     "commander": "^14.0.3",
     "ipaddr.js": "^2.3.0",
